@@ -1,0 +1,15 @@
+version: 2
+jobs:
+  build:
+    working_directory: ~/search
+    docker:
+      - image: circleci/node:10.0.0
+      - image: mongo:3.4.4
+    steps:
+      - checkout
+      - run:
+          name: update-npm
+          command: 'sudo npm install -g npm'
+      - run:
+          name: install-dependencies
+          command: 'npm install'

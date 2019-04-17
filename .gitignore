@@ -1,0 +1,10 @@
+proxy_stockit/node_modules
+components/earnings/earnings/node_modules
+components/earnings/pricePaidAverage/node_modules
+components/earnings/proxy/node_modules
+components/earnings/ratings/node_modules
+components/earnings/seed/node_modules
+components/buysell_module/node_modules
+components/ratings_history_module/node_modules
+components/search/W7/search/node_modules
+components/stock-chart/node_modules
